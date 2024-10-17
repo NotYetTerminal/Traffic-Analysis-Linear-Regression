@@ -1,8 +1,15 @@
 # Traffic Analysis using Linear Regression
 
 This repository contains Jupyter Notebooks for doing data analysis on the traffic volumes of Dublin junctions.  
- The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).  
- The data used of the Dublin traffic volume was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other sets of data can be downloaded and used.
+The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).  
+The following libraries were used to process the data:
+
+- [Pandas](https://pandas.pydata.org/)
+- [Numpy](https://numpy.org/)
+- [Matplotlib Pyplot](https://matplotlib.org/stable/)
+- [Scikit Learn](https://scikit-learn.org/stable/)
+
+The data used of the Dublin traffic volume was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other sets of data can be downloaded and used.
 
 ### Data
 
@@ -47,4 +54,4 @@ The following procedure is then used in the [Notebook](Notebooks/LinearRegressio
 ### Application
 
 Using these models generated and using the [SCATS site location data](https://data.gov.ie/dataset/traffic-signals-and-scats-sites-locations-dcc) the **Site** numbers in the data set can be used to see which models are for which junctions throughout the city of Dublin.  
-This could then be used to build a heatmap of the city showing where there is more or less anticipated traffic, and would help with navigating around the city.
+This could then be used to build a heat map of the city showing where there is more or less anticipated traffic, and would help with navigating around the city.
