@@ -1,19 +1,20 @@
-# Traffic Analysis using Linear Regression
+# 🚦 Traffic Analysis using Linear Regression 🚦
 
-This repository contains Jupyter Notebooks for doing data analysis on the traffic volumes of Dublin junctions.  
-The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).  
+This repository contains [Jupyter Notebooks](https://jupyter.org/) for doing data analysis on the traffic volumes of Dublin junctions.  
+The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).
+
+### Libraries
+
 The following libraries were used to process the data:
 
-- [Pandas](https://pandas.pydata.org/)
-- [Numpy](https://numpy.org/)
-- [Matplotlib Pyplot](https://matplotlib.org/stable/)
-- [Scikit Learn](https://scikit-learn.org/stable/)
-
-The data used of the Dublin traffic volume was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other sets of data can be downloaded and used.
+- [Pandas](https://pandas.pydata.org/) — Loading data, saving models
+- [Numpy](https://numpy.org/) — Processing data
+- [Matplotlib Pyplot](https://matplotlib.org/stable/) — Visualising results
+- [Scikit Learn](https://scikit-learn.org/stable/) — Training model
 
 ### Data
 
-The data was first downloaded from the website, containing the following columns:
+The Dublin traffic volume data was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other similar sets of data can be downloaded. The data downloaded contains the following columns:
 
 - **End_Time** - The hour at which the period ends, includes year, month, day, hour.
 - **Region** - Geographic region of the site.
