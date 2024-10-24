@@ -1,6 +1,6 @@
 # 🚦 Traffic Analysis using Linear Regression 🚦
 
-This repository contains [Jupyter Notebooks](https://jupyter.org/) for doing data analysis on the traffic volumes of Dublin junctions.  
+This repository contains [Jupyter](https://jupyter.org/) Notebooks for doing data analysis on the traffic volumes of Dublin junctions.  
 The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).
 
 ### Libraries
@@ -25,7 +25,7 @@ The Dublin traffic volume data was downloaded from [data.gov.ie](https://data.go
 
 ### Process
 
-The following procedure is then used in the [Notebook](Notebooks/LinearRegressionTrafficVolume.ipynb) to process and visualise the data:
+The following procedure is used in the Jupyter [Notebook](Notebooks/LinearRegressionTrafficVolume.ipynb) to process and visualise the data:
 
 1. The data is imported, column **Detector** is omitted.
 2. All of the **Detector** row values for **Sum_Volume** and **Avg_Volume** are summed up to get only 1 per **Site** per **End_Time**.  
