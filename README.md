@@ -1,7 +1,9 @@
 # 🚦 Traffic Analysis using Linear Regression 🚦
 
-This repository contains [Jupyter](https://jupyter.org/) Notebooks for doing data analysis on the traffic volumes of Dublin junctions.  
 The notebooks were created using the notebooks available in the [Python Data Science Handbook Github Repository](https://github.com/jakevdp/PythonDataScienceHandbook).
+
+This repository contains [Jupyter](https://jupyter.org/) Notebooks for doing Linear Regression data analysis on the traffic volumes of Dublin junctions.  
+The models trained are then able to be used to predict the different volumes of traffic at the different times of the day.
 
 ### Libraries
 
@@ -14,7 +16,10 @@ The following libraries were used to process the data:
 
 ### Data
 
-The Dublin traffic volume data was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other similar sets of data can be downloaded. The data downloaded contains the following columns:
+The Dublin traffic volume data was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other similar sets of data can be downloaded.
+The data is collected throughout various junctions across Dublin using sensors, which are generally embedded into the road as inductive loops.
+
+The data downloaded contains the following columns:
 
 - **End_Time** - The hour at which the period ends, includes year, month, day, hour.
 - **Region** - Geographic region of the site.
