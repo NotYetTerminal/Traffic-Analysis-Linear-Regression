@@ -30,7 +30,7 @@ The data downloaded contains the following columns:
 
 ### Process
 
-The following procedure is used in the Jupyter [Notebook](Notebooks/LinearRegressionTrafficVolume.ipynb) to process and visualise the data:
+The following procedure is used in the Jupyter Notebook ([Ipynb](Notebooks/LinearRegressionTrafficVolume.ipynb), [PDF](Notebooks/LinearRegressionTrafficVolume.pdf)) to process and visualise the data:
 
 1. The data is imported, column **Detector** is omitted.
 2. All of the **Detector** row values for **Sum_Volume** and **Avg_Volume** are summed up to get only 1 per **Site** per **End_Time**.  
