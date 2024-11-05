@@ -16,7 +16,7 @@ The following libraries were used to process the data:
 
 ### Data
 
-The Dublin traffic volume data was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other similar sets of data can be downloaded.
+The February Dublin traffic volume data was downloaded from [data.gov.ie](https://data.gov.ie/dataset/dcc-scats-detector-volume-jan-jun-2023), from which many other similar sets of data can be downloaded.
 The data is collected throughout various junctions across Dublin using sensors, which are generally embedded into the road as inductive loops.
 
 The data downloaded contains the following columns:
